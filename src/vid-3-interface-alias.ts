@@ -32,9 +32,15 @@ console.log(User);
 
 // todo:interface
 
-interface anyone {
+interface animal {
   species: string;
 }
-interface cat {
-  
+interface cat extends animal {
+  breed: string;
 }
+
+const Cat: cat = {
+  breed: "osthir persian",
+  species: "felix catos",
+};
+console.log(Cat.species);

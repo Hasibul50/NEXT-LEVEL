@@ -10,4 +10,9 @@ const User = {
     },
 };
 console.log(User);
+const Cat = {
+    breed: "osthir persian",
+    species: "felix catos",
+};
+console.log(Cat.species);
 export {};
